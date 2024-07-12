@@ -39,3 +39,6 @@ node_modules
 src
 pachage.json
 pachage-lock.json
+node_modules/
+.next/
+src

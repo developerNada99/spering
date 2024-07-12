@@ -16,7 +16,7 @@ export default function Footer(){
                     <Link href="/"><Image src="/youtube.png" className="mr-5" width={30} height={30}/></Link>
                 </div>
             </div>
-            <div className="flex items-center justify-center gap-16 ml-20 basis-1/4 mx-12 text-white max-md:flex-col max-md:justify-center">
+            <div className="flex items-center justify-center gap-16 ml-20 basis-1/4 mx-12 text-white max-md:flex-col max-md:justify-center max-sm:mx-0">
                 <div className="">
                     <h2 className="font-bold text-lg mt-4">USEFUL LINK</h2>
                     <nav className="flex-col flex mt-2 max-md:items-center">
