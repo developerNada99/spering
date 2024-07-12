@@ -60,7 +60,7 @@ const Testimonial = () => {
 <div className="flex flex-col h-screen">
         <h1 className="font-bold text-4xl mr-auto ml-auto">Testimonial</h1>
     <div className="mt-10">
-        <div  className="slideshow m-auto w-[800px] h-72 relative overflow-hidden max-lg:w-[600px] max-lg:h-64 max-sm:w-[450px] max-sm:h-96">
+        <div  className="slideshow m-auto w-[800px] h-72 relative overflow-hidden max-lg:w-[600px] max-lg:h-64 max-sm:w-[350px] max-sm:h-[500px]">
             <AnimatePresence>
                 <motion.div 
             variants={variants}
@@ -70,7 +70,7 @@ const Testimonial = () => {
             key={data[index].name}
             className="slides w-full h-full py-10 px-24 rounded-xl border bg-white text-black shadow-inner">
             <motion.h1 variants={childVariants} className="font-bold text-center text-2xl">  {data[index].name} </motion.h1>
-            <motion.p variants={childVariants} className="text-center mt-3 text-lg">{data[index].para}</motion.p>
+            <motion.p variants={childVariants} className="text-center mt-3 text-lg max-sm:text-base">{data[index].para}</motion.p>
             </motion.div>
             </AnimatePresence>
             <button onClick={nextStep} className="prevButton flex justify-center items-center absolute top-2/4 left-4 -translate-y-2/4 p-4 max-lg:p-1 text-[18px] w-16 max-lg:w-10 rounded-full bg-[#1a2e35] border-none cursor-pointer text-centerc text-white aspect-square hover:bg-[#242430]">{"<"}</button>

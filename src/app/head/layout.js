@@ -38,7 +38,7 @@ export default function Head(){
                 </div>
                 <div className="flex space-x-6 max-lg:flex-col max-lg:p-2">
                     <Link href="/" className="text-white">Login</Link>
-                    <img src="/gh.png" className="text-white h-5 w-5 max-lg:hidden"/>
+                    <img src="/gh.png" href="/work" className="text-white h-5 w-5 max-lg:hidden"/>
                 </div>
             </motion.nav>}
             </AnimatePresence>

@@ -37,3 +37,5 @@ next-env.d.ts
 .next
 node_modules
 src
+pachage.json
+pachage-lock.json
